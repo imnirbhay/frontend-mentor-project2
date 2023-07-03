@@ -1,0 +1,82 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@200;500;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    height:600px;
+    width: 90%;
+    margin-top: 20px;
+    background-color: rgb(238, 228, 229);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container1{
+    height: 350px;
+    width: 400px;
+    background-color: aqua;
+    display: flex;
+}
+.image{
+    width: 50%;
+    height: 100%;
+    background-image: url(image-product-desktop.jpg);
+    background-size: cover;
+}
+.content{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.price{
+    display:flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.one{
+    font-size: x-small;
+    font-family:"Montserrat";
+    margin-left: 20px;
+
+}
+.two{
+    font-size: x-large;
+    font-family:"Fraunces";
+    margin-left: 20px;
+    
+}
+.three{
+    font-family:"Fraunces";
+    color:#3c8067 ;
+    padding-right: 15px;   
+    font-size: x-large
+}
+.four{
+    font-size: x-small;
+    text-decoration:line-through;
+}
+.button{
+    background-color: #3c8067;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    height: 12%;
+    margin: 15px;
+    border-radius: 1rem;
+    align-items: center;
+}
+.button:hover{
+    background-color: rgb(46, 46, 68);
+}
